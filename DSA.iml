@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Topic/Day 01 Base to DSA/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Topic/Practice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Topic/2. Problems on Conditionls/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
