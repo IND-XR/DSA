@@ -28,9 +28,6 @@ public class Loop {
         }else{
             System.out.println("  This is NOT a Prime Number");
         }
-
-
-
     }
 }
 
