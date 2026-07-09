@@ -3,12 +3,13 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Topic/Day 01 Base to DSA/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Topic/Practice/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Topic/Day 02. Problems on Conditionls/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Topic/Day 03 Conditional's Problem/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Topic/Day 04 Introduction to Loops/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Topic/Day 06 Loop part 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Topic/1 Base to DSA/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Topic/2 Problems on Conditionls/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Topic/3 Conditional's Problem/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Topic/4 Introduction to Loops/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Topic/6 Loop part 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Topic/7 Loops Part 3/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

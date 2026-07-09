@@ -1,4 +1,28 @@
 
+
+// 33 write a  program to take  two inputs a, b & find the value of a raised to the power of b;
+import java.util.Scanner;
+
+public class loopQS {
+    public static void main(String[] args){
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        int a = 0 ;
+
+        for(int i = 0; i < n;i++){
+
+            a = i;
+            System.out.println(a);
+        }
+
+    }
+
+}
+
+
+
 // 33 write a  program to take  two inputs a, b & find the value of a raised to the power of b;
 //import java.util.Scanner;
 //
@@ -23,37 +47,37 @@
 //}
 
 // ***************** IMP
-import java.util.Scanner;
-
-public class loopQS {
-    public static void main(String[] args){
-
-        Scanner sc = new Scanner(System.in);
-
-        int n =  sc.nextInt();
-
-        if(n <= 1){
-            System.out.println(" frist is also not prime ");
-        } else if( n == 2){
-            System.out.println(" second  is also not prime");
-        } else if(n % 2 == 0 ){
-            System.out.println(" third  is also not prime");
-        } else {
-            boolean isPrime = true;
-            for(int i = 3;i<=(int)Math.sqrt(n);i++) {
-                if (n % i == 0) {
-                    isPrime = false;
-                    break;
-                }
-            }
-            if(isPrime == true){
-                System.out.println(" prime number");
-            }else{
-                System.out.println(" not prime ");
-            }
-        }
-    }
-}
+//import java.util.Scanner;
+//
+//public class loopQS {
+//    public static void main(String[] args){
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        int n =  sc.nextInt();
+//
+//        if(n <= 1){
+//            System.out.println(" frist is also not prime ");
+//        } else if( n == 2){
+//            System.out.println(" second  is also not prime");
+//        } else if(n % 2 == 0 ){
+//            System.out.println(" third  is also not prime");
+//        } else {
+//            boolean isPrime = true;
+//            for(int i = 3;i<=(int)Math.sqrt(n);i++) {
+//                if (n % i == 0) {
+//                    isPrime = false;
+//                    break;
+//                }
+//            }
+//            if(isPrime == true){
+//                System.out.println(" prime number");
+//            }else{
+//                System.out.println(" not prime ");
+//            }
+//        }
+//    }
+//}
 
 
 //import java.util.Scanner;
