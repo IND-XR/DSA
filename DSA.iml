@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Topic/4 Introduction to Loops/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Topic/6 Loop part 2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Topic/7 Loops Part 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Topic/8 Loops part 4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Topic/9 Switch statements/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
