@@ -77,21 +77,15 @@ public class arraypart2 {
 
         int[] array  = new int[5];
 
-//        array[0] = sc.nextInt();
-//        array[1] = sc.nextInt();
-//
-//        int gerat  =  0 ;
-        //int second =  M
-        boolean isSorted = true;
-
-        for(int i = 0 ; i < array.length-1; i++){
+        for(int i = 0 ; i < array.length; i++){
             array[i] = sc.nextInt();
-
-            if(array[i] > array[i+1] ){
-                isSorted = false;
-                break;
+        }
+        for(int i = 0 ; i < array.length-1;i++){
+            if( array[i]> array[i+1] ){
+                System.out.println("Array is not sorted");
+                return;
             }
         }
-        System.out.println(isSorted?"sorted":"not sonted");
+        System.out.println("Array is sorted");
     }
 }
