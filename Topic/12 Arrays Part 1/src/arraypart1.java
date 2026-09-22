@@ -5,21 +5,23 @@ public class arraypart1 {
 
     public static void main(String[] args){
 
-        int[] arr = {12,34,45,56};
+        Scanner sc = new Scanner(System.in);
 
-        int sum = 0;
+        int[] arr = new int[5];
 
-        for(int i = 0 ; i < arr.length ; i++){
-            sum += arr[i];
+        int largest = 0;
+
+        for(int i = 0 ; i < arr.length;i++){
+            arr[i] = sc.nextInt();
         }
 
+        for(int i = 0 ; i < arr.length;i++){
 
-        double average = (double) sum / arr.length;
-
-        System.out.println("sum" + sum);
-        System.out.println("agr"+average);
-
-
+            if(arr[i] > largest){
+                largest = arr[i];
+            }
+        }
+        System.out.println("The largest number"+ largest);
 
 
     }
