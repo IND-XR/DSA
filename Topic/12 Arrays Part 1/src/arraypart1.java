@@ -1,34 +1,39 @@
 // find the  sum and avg in program
+
 import java.util.Scanner;
 
 public class arraypart1 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
         int[] arr = new int[5];
 
-        int largest = 0;
+        arr[0] = sc.nextInt();
+        arr[1] = sc.nextInt();
 
-        for(int i = 0 ; i < arr.length;i++){
+        int largest = Math.max(arr[0],arr[1]);
+        int secondlarg = Math.min(arr[0],arr[1]);
+
+        for (int i = 2; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
 
-        for(int i = 0 ; i < arr.length;i++){
+        for (int i = 0; i < arr.length; i++) {
 
-            if(arr[i] > largest){
+            if (arr[i] > largest) {
+                secondlarg = largest;
                 largest = arr[i];
+
+            } else if (arr[i] > secondlarg && arr[i] != largest) {
+                secondlarg = arr[i];
             }
         }
-        System.out.println("The largest number"+ largest);
-
-
+        System.out.println("secondlarg "+ secondlarg);
+        System.out.println("The largest number "+ largest);
     }
 }
-
-
-
 
 
 
