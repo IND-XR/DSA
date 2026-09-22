@@ -1,4 +1,4 @@
-
+// find the  sum and avg
 import java.util.Scanner;
 
 public class arraypart1 {
